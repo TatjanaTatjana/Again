@@ -1,0 +1,19 @@
+button{
+  width: 15%;
+  height: auto;
+  text-align: center;
+  margin-left: 80%;
+  margin-top: 5%;
+  color: black;
+  background-color: cornflowerblue;
+}
+.container-fluid{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+h1{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10%;
+}

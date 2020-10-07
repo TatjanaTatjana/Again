@@ -1,0 +1,21 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 id="question1">Kako se zove nastavnik???</h1>
+    </div>
+  </div>
+
+
+  <mat-grid-list cols="2" rowHeight="3:1">
+    <mat-grid-tile  id="first"><mat-checkbox ><li><a>{{teacher_name[0]}} </a></li></mat-checkbox>{{teacher_name[0]}}</mat-grid-tile>
+    <mat-grid-tile  id="second"><mat-checkbox><li><a>{{teacher_name[1]}}</a></li></mat-checkbox>{{teacher_name[1]}}</mat-grid-tile>
+    <mat-grid-tile  id="three"><mat-checkbox><li><a>{{teacher_name[2]}}</a></li></mat-checkbox>{{teacher_name[2]}}</mat-grid-tile>
+    <mat-grid-tile  id="fourth"><mat-checkbox><li><a>{{teacher_name[3]}}</a></li></mat-checkbox>{{teacher_name[3]}}</mat-grid-tile>
+  </mat-grid-list>
+
+
+  <button class="btn btn-primary"><a routerLink="/two">Send</a></button>
+</div>
+
+
+<router-outlet></router-outlet>
